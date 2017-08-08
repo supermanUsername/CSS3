@@ -34,19 +34,23 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 ***容器的布局方向（改变主轴）***
 - -webkit-box-orient: horizontal;
 设定布局方向为水平方向。
+
 ![](http://i.imgur.com/m6r4wZl.png)
 
 - -webkit-box-orient: vertical;
 设定布局方向为垂直方向。
+
 ![](http://i.imgur.com/sGQfAwb.png)
 
 ***容器排列方向（改变主轴）***
 - -webkit-box-direction: normal;
 设定排列方向为正常方向。
+
 ![](http://i.imgur.com/b1VuAnN.png)
 
 - -webkit-box-direction: reverse;
 设定排列方向为相反方向。
+
 ![](http://i.imgur.com/zyW3brM.png)
 
 ***富裕空间的管理***
@@ -57,32 +61,39 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 
   -webkit-box-pack:start; 
 富裕空间在右边。
+
 ![](http://i.imgur.com/6IMYi64.png)
 
   -webkit-box-pack:end;
 富裕空间在左边。
+
 ![](http://i.imgur.com/S5Ut40a.png)
 
   -webkit-box-pack:center;
 富裕空间在两边。
+
 ![](http://i.imgur.com/Mbi7JMP.png)
 
   -webkit-box-pack-justify;(box 没有的)
 富裕空间在项目之间。
+
 ![](http://i.imgur.com/3KGRyWh.png)
 
 -  富裕空间的管理（侧轴）      
 
   -webkit-box-align:start;
 富裕空间在下边。
+
 ![](http://i.imgur.com/zXcX28Y.png)
 
   -weblit-box-align:end;
 富裕空间在上边。
+
 ![](http://i.imgur.com/MJHf5uS.png)
 
   -webkit-box-align:center; 
 富裕空间在两边。
+
 ![](http://i.imgur.com/LK3TEtN.png)
 
 **项目**
@@ -92,9 +103,11 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 -webkit-box-flex: 1;
 
 **等比分配**
+
 ![](http://i.imgur.com/Rv6vPgp.png)
 
 **不等比分配**
+
 ![](http://i.imgur.com/qG0fl98.png)
 
 
@@ -114,20 +127,24 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 
 - flex-direction: row;
 设定布局方向为水平方向（行）。
+
 ![](http://i.imgur.com/IKprDg2.png)
 
 - flex-direction: column;
 设定布局方向为垂直方向（列）。
+
 ![](http://i.imgur.com/KZsonnd.png)
 
 ***容器排列方向***
 
 - flex-direction:row-reverse;
 设定排列方向为水平反方向。
+
 ![](http://i.imgur.com/BespgoY.png)
 
 - flex-direction:column-reverse;
 设定排列方向为垂直反方向。
+
 ![](http://i.imgur.com/NganQcF.png)
 
 ***富裕空间的管理***
@@ -135,43 +152,53 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 - 更强大的富裕空间的管理（主轴）
  justify-content: flex-start;
 富裕空间在主轴的正方向。
+
 ![](http://i.imgur.com/oiDUXtB.png)
 
  justify-content:flex-end;
 富裕空间在主轴的反方向。
+
 ![](http://i.imgur.com/Pug5J0q.png)
 
  justify-content:center;
 富裕空间在两边。
+
 ![](http://i.imgur.com/nt60n2y.png)
 
  justify-content:space-between;
 富裕空间在项目之间。
+
 ![](http://i.imgur.com/kMSb4w8.png)
 
  justify-content:space-around;(box 没有的)
 富裕空间在项目两边。
+
 ![](http://i.imgur.com/NGIh6kS.png)
            
 - 更强大的富裕空间的管理（侧轴）
  align-items:flex-start;
 富裕空间在侧轴的正方向。
+
 ![](http://i.imgur.com/FAbILRp.png)
 
  align-items:flex-end;
 富裕空间在侧轴的反方向。
+
 ![](http://i.imgur.com/jqGxTUS.png)
 
  align-items:center;
 富裕空间在两边。
+
 ![](http://i.imgur.com/CZA3ZCT.png)
 
  align-items:baseline;(box 没有的)
 沿着基线对齐。
+
 ![](http://i.imgur.com/d2pPCLh.png)
 
  align-items: stretch;(box 没有的)
 实现等高布局。
+
 ![](http://i.imgur.com/IK95OG2.png)
 
 **项目**
@@ -181,9 +208,11 @@ CSS3 弹性盒子(Flexible Box 或 Flexbox)，是一种用于在页面上布置�
 flex-grow: 1；
 
 **等比分配**
+
 ![](http://i.imgur.com/BKyHmzm.png)
 
 **不等比分配**
+
 ![](http://i.imgur.com/EewCxcC.png)
 
 ## 新版flex布局详解 ##
